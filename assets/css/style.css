@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:#fff;
+    font-family: 'Raleway', sans-serif;
+    color:#fff;
+
+
+}
+
+.banner {
+    height: 100vh;
+    width: 100%;
+    background: url("../imgs/pageheroimage.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+.banner .navbar-brand {
+  font-family: 'Homemade Apple', cursive;
+  color: 	#FFB6C1;
+  font-size: 1.5em;
+  font-weight: 300;
+  margin-left: 5%;
+}
+
+.banner .navbar {
+  margin-top: 2%;
+
+}
+
+.banner .nav{
+  margin-right:5% ;
+}
+
+a{
+color: 	#FFB6C1;
+font-size: 1.2em;
+}
+
+a:hover{
+  color:#fff;
+}
+
+.banner .info {
+  margin-top: 12%;
+  transform: translateY(-15%);
+  
+}
+
+.banner .info h1 {
+font-size: 2.5em;
+font-weight: 700;
+color:#fff;
+letter-spacing: 2px;
+}
+
+.banner .info p {
+  font-size: 2em;
+  font-weight: 500;
+  color:#fff;
+  letter-spacing: 2px;
+  }
+
+  .banner .info a {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    color:#fff;
+    background: #FFB6C1;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: 600;
+    }
+.banner .info a:hover{
+  background: 	#00CED1;
+}
+
+.bg-pink {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #FFB6C1;
+  border-radius: .3rem;
+}
+
+.pink-txt {
+    color: #FFB6C1;
+    font-weight: 400;
+}
+
+.pink-txt-lg {
+    color: #FFB6C1;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.cheight {
+    height: 550px;
+}
+
+.circle-img {
+    height: auto;
+    border-radius: 50%;
+}
+
+.btn{
+    background-color: #FFB6C1;
+}
+
+.btn:hover {
+    background-color: #FFFB73;
+}
+
+.ylw-bg {
+    background-color: #C0C1FF;
+}
+
+.car-text {
+    font: bold;
+}
