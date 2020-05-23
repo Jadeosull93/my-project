@@ -9,7 +9,7 @@ body{
 }
 
 .navbar {
-    background-color: #FFB6C1;
+    background-color: navy;
 }
 
 .banner {
@@ -25,7 +25,7 @@ body{
 
 .banner .navbar-brand {
   font-family: 'Homemade Apple', cursive;
-  color: 	navy;
+  color: white;
   font-size: 1.5em;
   font-weight: 300;
   margin-left: 5%;
@@ -37,7 +37,7 @@ body{
 }
 
 .navbar-toggler {
-    color: navy;
+    color: #FFB6C1;
 }
 
 .banner .nav{
@@ -45,7 +45,7 @@ body{
 }
 
 a{
-color: 	navy;
+color: 	#FFB6C1;
 font-size: 1.2em;
 }
 
@@ -127,4 +127,39 @@ letter-spacing: 2px;
 
 .car-text {
     font: bold;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: navy;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card-img-top {
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+}
+
+.informed-page-bottom-section div.card-body {
+    background-color: #2B3256;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+    background-color: navy;
 }
