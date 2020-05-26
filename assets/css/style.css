@@ -9,13 +9,13 @@ body{
 }
 
 .navbar {
-    background-color: navy;
+    background-color: 	#5b99b2;
 }
 
 .banner {
     height: 100vh;
     width: 100%;
-    background: url("../imgs/OrlaBoxingHands.jpg");
+    background: url("../imgs/orlaBoxingSide.jpg");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -23,7 +23,7 @@ body{
 
 }
 
-.banner .navbar-brand {
+.navbar-brand {
   font-family: 'Homemade Apple', cursive;
   color: white;
   font-size: 1.5em;
@@ -83,7 +83,7 @@ letter-spacing: 2px;
     font-weight: 600;
     }
 .banner .info a:hover{
-  background: 	navy;
+  background: 	#5b99b2;
 }
 
 .bg-pink {
@@ -137,10 +137,11 @@ letter-spacing: 2px;
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    background-color: navy;
+    background-color: 	#5b99b2;
     background-clip: border-box;
     border: 1px solid rgba(0,0,0,.125);
-    border-radius: .25rem;
+    box-shadow: 5px 5px 10px 	#5b99b2;
+    border-radius: .5rem;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -151,7 +152,7 @@ letter-spacing: 2px;
 }
 
 .informed-page-bottom-section div.card-body {
-    background-color: #2B3256;
+    background-color: 	#5b99b2;
     padding-right: 0;
     padding-left: 0;
 }
@@ -161,5 +162,109 @@ letter-spacing: 2px;
     flex: 1 1 auto;
     min-height: 1px;
     padding: 1.25rem;
-    background-color: navy;
+    background-color: 	#5b99b2;
+}
+
+.line {
+    height: 3px solid;
+    color: #FFB6C1;
+}
+
+ .contact-section {
+     height: 600px;
+     background: url("../imgs/backg.png");
+     background-size: cover;
+}
+ .contact-form {
+     width:75%;
+     max-width: 600px;
+     background: #f1f1f1;
+     position: relative;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     padding: 30px 40px;
+     box-sizing: border-box;
+     border-radius: 8px;
+     text-align: center;
+     box-shadow: 0 0 20px #000000b3;
+     font-family: "Oswald", sans-serif;
+}
+ .contact-form h1 {
+     margin-top: 0;
+     font-weight: 200;
+     color: 	#5b99b2;
+}
+ .txtb {
+     border: 1px solid grey;
+     margin: 8px 0;
+     padding: 12px 18px;
+     border-radius: 8px;
+}
+ .txtb label {
+     display: block;
+     text-align: left;
+     color: 	#5b99b2;
+     text-transform: uppercase;
+}
+ .txtb input, .txtb textarea {
+     width:100%;
+     border: none;
+     background: none;
+     outline: none;
+     font-size: 12px;
+     margin-top: 3px;
+}
+ .my-btn {
+     display: inline-block;
+     background: #FFB6C1;
+     padding: 14px 0;
+     color: white;
+     text-transform: uppercase;
+     margin-top: 8px;
+     width: 100%;
+}
+ .my-side {
+     margin-right: 60px;
+}
+ .padding-top {
+     padding-top: 60px;
+     justify-content: center;
+}
+ .background-img{
+     display: table;
+     height: 30%;
+     position: relative;
+     width: 100%;
+     background-size: cover;
+     margin-left: 0;
+     margin-right: 0;
+}
+ .h1{
+     display: table-cell;
+     text-align: center;
+     vertical-align: middle;
+     color: #ffbb33;
+     font-weight: 300;
+}
+ .gap30 {
+     padding: 40px 0;
+}
+ .gap50 {
+     padding: 70px 0;
+}
+ .gap100 {
+     padding: 70px 0;
+     margin-top: 20px;
+}
+ .col-md-6 {
+     justify-content: center;
+}
+ .my-container {
+     padding-right: 0px;
+     padding-left: 0px;
+}
+ .transparent-underlay {
+     background-color: rgba(0,0,0,0.9);
+     opacity: 10;
 }
