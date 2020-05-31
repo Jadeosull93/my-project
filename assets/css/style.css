@@ -9,7 +9,7 @@ body{
 }
 
 .navbar {
-    background-color: 	#5b99b2;
+    background-color: 	transparent;
 }
 
 .banner {
@@ -21,6 +21,10 @@ body{
     background-attachment: fixed;
     background-repeat: no-repeat;
 
+}
+
+.nav-item {
+    border: 2px #FFB6C1 solid;
 }
 
 .navbar-brand {
@@ -54,7 +58,7 @@ a:hover{
 }
 
 .banner .info {
-  margin-top: 12%;
+  margin-top: 18%;
   transform: translateY(-15%);
   
 }
